@@ -1,0 +1,51 @@
+<!DOCTYPE html lang="pt-br">
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Administrador</title>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script> 
+        <link rel="stylesheet" type="text/css" href="./adm.css">
+     </head>
+    <body>
+       <div align="center">
+           <h1>Bem-vindo</h1>  
+       </div>
+      <div align="center">
+          <label class="menu" id="paciente-button">Paciente</label>
+          <label class="menu" id="profissional-button">Profissional</label>
+          <label class="menu">Sair</label>
+      </div>
+       <div class="barra"></div> <!--BARRA DE SEPARAÇÃO -->
+
+       <!-- FORMULÁRIO-->
+       <div id="paciente" class="esquerda">
+           <h2>Paciente</h2>
+           <form>
+               <input type="text" placeholder="Nome" name="NOME"><br>
+               <input type="text" placeholder="CPF" name="CPF"><br>
+               <input type="text" placeholder="Email" name="EMAIL"><br>
+               <input type="text" placeholder="Número para Contato" name="CONTATO"><br>
+               <input type="text" placeholder="Bairro" name="BAIRRO"><br>
+               <input type="text" placeholder="Estado" name="ESTADO"><br>
+               <input type="submit" value="salvar">
+           </form>
+       </div>
+
+       <div id="profissional" class="esquerda">
+            <h2>Profissional</h2>
+            <form>
+                <input type="text" placeholder="Nome" name="NOME"><br>
+                <input type="text" placeholder="CPF" name="CPF"><br>
+                <input type="text" placeholder="Email" name="EMAIL"><br>
+                <input type="text" placeholder="Número para Contato" name="CONTATO"><br>
+                <input type="text" placeholder="Bairro" name="BAIRRO"><br>
+                <input type="text" placeholder="Estado" name="ESTADO"><br>
+                <input type="submit" value="salvar">
+            </form>
+        </div>
+    </body>
+    <script src="adm.js"></script>
+</html>

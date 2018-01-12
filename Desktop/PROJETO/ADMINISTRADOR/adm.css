@@ -1,0 +1,40 @@
+body{
+    background-color:  #f79ac7;
+}
+
+h1 , h2{
+   color:   purple;
+}
+.menu{
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 1px;
+    background-color:  purple;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #ffe6f2;
+    border-radius: 10px;
+    border-top-right-radius: 20px;
+   
+}
+.menu:hover{
+    background-color: rgb(240, 86, 171);
+}
+input{
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-top: 2px;
+    color: purple;;
+}
+input:hover{
+    background-color: rgb(240, 86, 171);
+}
+.barra{
+    border-bottom: solid purple;
+    height: 1px;
+    width: inherit;
+    padding-top: 1px;
+}
+.esquerda{
+    float: left;
+}
