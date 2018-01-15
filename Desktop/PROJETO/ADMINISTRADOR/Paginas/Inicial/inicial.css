@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+    top: 0px;
+   
+}
+body{
+    background-color: rgb(237, 230, 230);
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    background-color: pink;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+img:hover{
+    box-shadow: 5px 5px 5px purple;
+}
+li{
+    padding-top: 5px;
+}
+li:hover{
+    color: rgb(194, 31, 194);
+   padding-top: 7px;
+}
+#opcoes{
+    height: 100%;
+    width: auto;
+    border-right: solid ;
+    padding-right: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.esquerda{
+    float: left;
+}
+.fundoRosa{
+    background-color: rgb(221, 121, 196);
+}
+.menuDiv{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    align-content: center;
+   border-bottom: solid;
+   padding-bottom: 5px;
+  width: 100%;
+
+}
+.menu{
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 1px;
+    background-color:  purple;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #ffe6f2;
+    border-radius: 10px;
+    border-top-right-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(82, 21, 76);
+   
+}
+.menu:hover{
+    background-color: #ff5dd1;
+}
+.centrar{
+    align-content: center;
+    display: inline;
+    float: left;
+    margin-left: 200px;
+}

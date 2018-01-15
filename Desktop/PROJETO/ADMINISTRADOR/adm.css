@@ -15,6 +15,7 @@ h1 , h2{
     color: #ffe6f2;
     border-radius: 10px;
     border-top-right-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(82, 21, 76);
    
 }
 .menu:hover{
