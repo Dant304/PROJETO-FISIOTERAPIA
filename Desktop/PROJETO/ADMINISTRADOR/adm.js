@@ -28,7 +28,12 @@ for(var i = 0; i <= email.length;i++){
         break;
     }
     else if(i== email.length){
-        $('#email-mensagem').append("<label style='color: red;'>Inválido</label>");
+       $('#email-mensagem').css('color',"red");
+       $('#email-mensagem').append("<label>Inválido</label>");
+       break;
     }
 }
 });
+$('#EMAIL').on('click',() => {
+    $('label for="EMAIL"').remove();
+})
