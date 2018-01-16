@@ -6,4 +6,3 @@ $(document).ready(() => {
         $('#dados').show();
     });
 
-})
